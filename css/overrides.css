@@ -781,6 +781,8 @@ ul#social-links li {
 .toolbar-lining {background:#fff;height:auto;}
 #toolbar-bar .contextual-toolbar-tab.toolbar-tab {height:40px;margin-top:-10px;}
 
+body.logged-in {padding-top:0;}
+body.logged-in .top-wrapper.w-navigation {margin-top:64px;}
 
 /* nav */
 
