@@ -1,0 +1,21 @@
+Landing Page Content Type for Materialize7
+
+In order for this file to work, you need to create a content type that has a machine name of landing_page. You'll need to make sure you have at least two fields for the form to be able to be stacked/side by side and for the navigation to be removed  
+
+Note: the philosophy of the navigation being removed is from Hubspot's Inbound that a landing page should not have a navigation bar.
+
+Be sure then when you create the landing page content type that you add the following fields to your content type after making sure it has a machine name of landing_page
+
+ *  field machine name:   field_remove_navigation
+ *  widget type:          select list
+ *  Allowed Values List:  navigation|Navigation
+ *                        no-navigation|No-Navigation
+ *  Make required:        yes
+
+ *  field machine name:   field_form_stacked
+ *  widget type:          select list
+ *  Allowed Values List:  navigation|Navigation
+ *                        no-navigation|No-Navigation
+ *  Make required:        yes
+
+Of course, you'll want to have the webform module installed and enabled for this new content type. You'll also want to make sure that you remove them from the display in the content type settings so you don't see these fields being inappropriate.

@@ -1,0 +1,3 @@
+Apple Touch Icons for Materialize7 Sub Themes
+
+In order for Apple Touch Icons to work you'll have to install them in your sub-theme. If you decide to rename your subtheme you'll need to make sure you edit the template.php file in your new theme to include the name of the theme on line 3. If you do not make this change when you rename the theme, your theme will break. Then you will cry.

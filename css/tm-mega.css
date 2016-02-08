@@ -1,0 +1,141 @@
+/*---------- Mega Menu ---------------------*/
+
+/** mega menu colors **/
+
+ul.mega-menu {background-color:#444;}
+ul.mega-menu li:hover {background-color:rgba(0,0,0,.2);}
+ul.mega-menu ul {background-color:#444;}
+ul.mega-menu a {color:#fff;}
+ul.mega-menu a:hover {color:#fff;}
+
+/** general mega menu styling **/
+ul.mega-menu {position:relative;z-index:500;padding:0;}
+ul.mega-menu {position:relative;}
+ul.mega-menu {display:flex;}
+ul.mega-menu li {text-align:center;width:100%;position:relative;float:left;list-style:none;}
+
+
+/* mega-level-2 */
+
+ul.mega-menu ul.mega-level-2{-webkit-box-shadow:0px 0px 2px 0px #000;box-shadow:0px 0px 2px 0px #000;}
+ul.mega-menu li:hover > ul{display:block;}
+ul.mega-menu ul li > ul,
+ul.mega-menu ul li:hover > ul{display:none;position:relative;}
+ul.mega-menu ul{display:none;position:absolute;top:100%;left:0;padding:0;width:300px;overflow:hidden;}
+ul.mega-menu ul a{font-size:1rem;position:relative;left:0;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;line-height:1.1rem;padding:1rem 20px;}
+ul.mega-menu ul a:hover{color:#fff;padding-left:25px;padding-right:5px;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+ul.mega-menu ul li{width:100%;float:none;text-align:left;position:relative;border-bottom:1px solid rgba(0,0,0,.1);}
+ul.mega-menu ul li:last-child{border-bottom:0px solid rgba(0,0,0,.1);}
+
+/* mega-level-3 */
+
+ul.mega-menu ul ul li{max-width:100%;width:100%;border-left:1px solid rgba(0,0,0,.1);padding-left:30px;background:rgba(0,0,0,.1);}
+
+
+/*-- advanced UL --*/
+
+ul.mega-menu li.unset-child {position:initial;} /*class required to make the ul be full width*/
+ul.mega-menu ul.advanced{left:0;position:absolute;width:100%;text-align:initial;}
+
+ul.mega-menu ul.advanced .inner {padding:20px 20px 0;}
+ul.mega-menu ul.advanced ul {display:block;position:initial;width:auto;}
+ul.mega-menu ul.advanced li {padding-left:10px;background-color:transparent;border-left:0;}
+ul.mega-menu ul.advanced li:hover{background-color:rgba(0,0,0,.2);}
+
+ul.mega-menu ul.advanced h2,
+ul.mega-menu ul.advanced h3,
+ul.mega-menu ul.advanced h4 {margin-top:0;}
+
+ul.mega-menu ul .button,
+ul.mega-menu ul .button:hover {padding:1rem 20px;}
+
+
+/*-- wide UL with bq img --*/
+ul.mega-menu ul.wide{left:-100px;padding-left:200px;width:500px;background-image:url('mega-images/first-menu-bg.png');background-repeat:no-repeat;background-position:0 0;}
+
+
+
+/*-- plus button --*/
+.no-children .plus-button{display:none;}
+.no-children ul{display:none !important;}
+.has-children > a{width:calc(100% - 50px);}
+.has-children .plus-button{height:100%;margin-left:0;position:absolute;right:0px;text-align:center;text-rendering:auto;top:0;width:50px;cursor:pointer;}
+.has-children .plus-button::before{-moz-osx-font-smoothing:grayscale;color:#fff;content:"";font-size:1.1em;line-height:1;font-family:FontAwesome;position:relative;top:-8px;}
+.has-children .plus-button.opened::before{content:"";-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+
+
+/*------- mobile menu ---------*/
+
+.nav-button {position:absolute;top:0;right:15px;}
+.nav-button a {color:#444;}
+.nav-button a:hover {color:#111;}
+.nav-button .menu-text {font-size:2rem;position:relative;top:-12px;}
+.nav-button .tel{font-size:1.3rem;line-height:1.3rem;text-align:right;}
+.logged-in .nav-button {display:none;}
+
+/*#sidenav-overlay {z-index:99;}*/
+ul.side-nav {padding-left:0;background:#555;}
+ul.side-nav ul {padding-left:0;}
+ul.side-nav li:hover {background:transparent;}
+ul.side-nav .main-menu-navigation li a {color:#fff;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+ul.side-nav .main-menu-navigation li a:hover {color:#fff;}
+ul.side-nav .main-menu-navigation, ul.side-nav .main-menu-navigation li {list-style-type:none;padding:0;}
+ul.side-nav .main-menu-navigation li:hover, ul.side-nav li.active {background-color:rgba(0,0,0,.1);}
+ul.side-nav .main-menu-navigation li a:hover {padding:0 0 0 30px;}
+ul.side-nav .main-menu-navigation li.has-children {position:relative;}
+.side-nav .has-children .plus-button::before {top:20px;}
+
+ul.mobile-level-2,
+ul.mobile-level-2:hover,
+ul.mobile-level-3,
+ul.mobile-level-3:hover,
+ul.mobile-level-4,
+ul.mobile-level-4:hover{display:none;position:relative;}
+
+
+ul.side-nav .main-menu-navigation ul.mobile-level-2 li a {padding:0 25px 0 25px;font-size:.9rem;}
+ul.side-nav .main-menu-navigation ul.mobile-level-2 li a:hover {padding:0 15px 0 35px;}
+
+ul.side-nav .main-menu-navigation ul.mobile-level-3 li a {padding:0 35px 0 35px;font-size:.8rem;}
+ul.side-nav .main-menu-navigation ul.mobile-level-3 li a:hover {padding:0 25px 0 45px;}
+
+ul.side-nav .main-menu-navigation ul.mobile-level-4 li a {padding:0 45px 0 45px;font-size:.8rem;}
+ul.side-nav .main-menu-navigation ul.mobile-level-4 li a:hover {padding:0 35px 0 55px;}
+
+/*mobile menu header */
+ul.side-nav .side-nav-header {border-bottom:1px solid rgba(255,255,255,.1);}
+
+ul.side-nav .side-nav-header ul.mobile-secondary {display:flex;padding:0;text-align:center;}
+ul.side-nav .side-nav-header ul.mobile-secondary li {width:100%;list-style-type:none;padding:initial;}
+ul.side-nav .side-nav-header ul.mobile-secondary li:hover {background-color:rgba(0,0,0,.1);}
+ul.side-nav .side-nav-header ul.mobile-secondary li a {font-size:.8rem;line-height:1rem;height:auto;color:#fff;padding:2px;}
+
+ul.side-nav .side-nav-header ul.mobile-secondary .table {height:55px;width:100%;}
+ul.side-nav .side-nav-header ul.mobile-secondary .table-cell {}
+
+/*mobile menu footer */
+ul.side-nav .side-nav-footer {font-size:.7rem;margin-top:25px;padding-top:5px;border-top:1px solid rgba(255,255,255,.1);}
+
+ul.side-nav .side-nav-footer a, ul.side-nav .side-nav-footer a:hover {color:#fff;text-decoration:underline;}
+
+#sidenav-overlay {background-color:rgba(0,0,0,.88);}
+
+/* this displays the mobile menu on iPad Pro */
+@media only screen and (min-width : 992px) {
+.ios .page-inner, .ios .page-inner.shrink {padding-top:0;}
+.ios #mega-menu-wrapper {height:0;overflow:hidden;}
+.ios #header {display:none;}
+.ios .nav-button.hide-on-large-only {display:block !important;}
+.ios .shrink .top-wrapper.wo-navigation,.ios .top-wrapper.wo-navigation{height:150px;}
+}
+/* for this to work, your mega menu must hide content on med and down */
+@media only screen and (max-width : 992px) {
+  #mega-menu-wrapper {height:0;}
+  .page, .page-inner, .top-wrapper {max-width:unset;}
+}
+
+
+
+
+
+

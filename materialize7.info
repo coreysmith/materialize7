@@ -1,0 +1,43 @@
+name = Materialize
+description = A Drupal 7 Base Theme Built on the Materialize CSS Framework. Use the Material Theme for the theme you edit and make your own.
+version = 1.0
+core = 7.x
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[help]           = 'Help'
+regions[header]         = 'Header'
+regions[mega_menu]      = 'Mega Menu'
+regions[highlighted]    = 'Highlighted'
+regions[preface]        = 'Preface'
+regions[content]        = 'Content'
+regions[sidebar_second] = 'Right Sidebar'
+regions[postscript]     = 'Postscript'
+regions[footer]         = 'Footer'
+regions[mob]    = 'Mobile Menu'
+
+;regions[drawer]         = 'Slideout Drawer'
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = js/materialize.min.js
+scripts[] = js/tm.mega.js
+scripts[] = js/custom.js
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/materialize.css
+stylesheets[all][] = css/overrides.css
+stylesheets[all][] = css/shrinking-header.css
+stylesheets[all][] = css/tm-mega.css
+

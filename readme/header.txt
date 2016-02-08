@@ -1,0 +1,37 @@
+Header Block Code Snippets
+
+Links and code in the header region will not be visible in the mobile view of the site. 
+
+
+Social Links
+----------------------------------------------------------------------------
+If you would like to have some social links for your secondary links in your header block, simply create a new block for your header region and edit the following snippet of code as needed. When editing the mobile menu, you can use these same classes for icons in the secondary section of that menu.
+
+
+<ul class="right-align center-on-mobile" id="social-links">
+  <li><a class="home" href="/"><span class="inner">Home</span></a></li>
+  <li><a class="twitter" href="http://www.twitter.com" target="_blank"><span class="inner">Twitter</span></a></li>
+  <li><a class="facebook" href="http://www.facebook.com" target="_blank"><span class="inner">Facebook</span></a></li>
+  <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><span class="inner">LinkedIn</span></a></li>
+  <li><a class="instagram" href="http://www.instagram.com" target="_blank"><span class="inner">Instagram</span></a></li>
+  <li><a class="pinterest" href="http://www.pinterest.com" target="_blank"><span class="inner">Pinterest</span></a></li>
+  <li><a class="youtube" href="http://www.youtube.com" target="_blank"><span class="inner">Youtube</span></a></li>
+  <li><a class="contact" href="/contact"><span class="inner"><span class="inner">Contact</span></span></a></li>
+</ul>
+
+
+
+
+Header Phone Number
+----------------------------------------------------------------------------
+Using microformats for a phone number is great. Adding a phone number to the header with this code will not be visible in the mobile view of the site. See the mega menu read me for information on how to get this visible in the mobile header.
+
+
+
+<div class="right-align center-on-mobile">
+  <div class="vcard hide-on-small-only" id="header-phone-med-lg">
+    <div class="tel">208.489.0123</div>
+  </div>
+</div>
+
+

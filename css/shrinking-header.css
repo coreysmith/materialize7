@@ -1,0 +1,134 @@
+
+
+
+/*** you probably only need to adjust these items for your header to work 
+     you might need to add a .not-front before .page-inner if your front page
+     background needs to flow behind the header area                        */
+
+.page-inner {
+  padding-top:236px; /* this needs to be same height of header + height of navigation bar */
+}
+.page-inner.shrink {
+  padding-top:210px; /* this need to be heigh enough to not lose text behind navigation bar.*/
+}
+
+
+
+header,
+.top-wrapper.wo-navigation {
+  height:170px; /* this needs to be same px as margin-top in header.shrink */
+  background:#fff;
+}
+
+.block-system-branding-block {
+  height:155px; /* this should be 15px smaller than the px height of header */
+}
+
+/*** end elements to adjust */
+
+
+
+
+/*** This vertically centers the logo in the header. If you have the site title and/or slogan
+     turned on then this will screw it up. If that is the case, you'll want to remove/comment
+     out these two items                                                                 */
+
+.block-system-branding-block {
+  display:table;
+  width:100%;
+}
+
+.block-system-branding-block a {
+  display:table-cell;
+  width:100%;
+  vertical-align:middle;
+}
+
+/*** end vertical align middle logo that might need to be removed */
+
+
+
+/* this alows the header to be full-width and stuck at top */
+.top-wrapper.w-navigation {
+  position:fixed;
+  top:0;
+  width:100%;
+  max-width:1798px;
+  margin:0 auto;
+  left:0;
+  right:0;
+  z-index:100;
+}
+.toolbar-horizontal .top-wrapper.w-navigation {
+  top:30px;
+}
+#header-wrapper > .inner,
+#header-container > .inner {display:flex;}
+#header-container.container {width:100%;max-width:100%;padding:10px;}
+#header-wrapper #site-info .inner {width:350px;} /* width of logo area. The bigger this is, the smaller your header region is */
+#header-wrapper #header {width:100%;}
+
+
+header {
+  position:relative;
+  top:0px;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+header.shrink {
+  overflow:hidden;
+}
+
+.page-inner {
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+
+.shrink .shrinking-icon {left:10px;opacity:1;top:6.5px;}
+
+.top-wrapper.wo-navigation {
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+  position:relative;
+  overflow:hidden;
+}
+ 
+.shrink .top-wrapper.wo-navigation {
+  height:0;
+}
+
+.page-inner.shrink h1 {position:relative;top:0;}
+
+
+@media only screen and (max-width : 600px) {
+  .page-inner, .page-inner.shrink{padding-top:0;}
+  #header-wrapper #site-info .inner{width:150px;}
+  .shrink .shrinking-icon,.shrinking-icon{display:none;}
+  .shrink .top-wrapper.wo-navigation,.top-wrapper.wo-navigation{height:100px;}
+  .top-wrapper.w-navigation{position:relative;}
+}
+
+@media only screen and (min-width : 601px) and (max-width : 992px) {
+  .page-inner, .page-inner.shrink{padding-top:0;}
+  #header-wrapper #site-info .inner{width:150px;}
+  .shrink .shrinking-icon,.shrinking-icon{display:none;}
+  .shrink .top-wrapper.wo-navigation,.top-wrapper.wo-navigation{height:100px;}
+  .top-wrapper.w-navigation{position:relative;}
+}
+
+/* ipad pro */
+@media only screen and (min-width : 992px) {
+  .ios .shrink .shrinking-icon,.ios .shrinking-icon{display:none;}
+  .ios .top-wrapper.w-navigation{position:relative;}
+}
+
+
+
