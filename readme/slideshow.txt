@@ -1,3 +1,3 @@
 Slideshow
 
-Need to add feature for slideshow for this theme.
+Need to add feature for slideshow for this theme. Create the feature from our site then add to repository.
