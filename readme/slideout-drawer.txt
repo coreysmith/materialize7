@@ -1,3 +1,7 @@
 Slideout Drawer for Materialize7
 
 We'll be adding a snippet of code to add a slideout drawer.
+
+to do:
+
+create jquery and create HTML/CSS
