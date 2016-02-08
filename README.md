@@ -34,7 +34,7 @@ Please use this base theme and modify it to fit your needs. Please do not alter 
 
 Installation
 ----------------------------------------------------------------------------
-To use this theme, put the Materialize7 base theme and the material_theme in your themes folder. You'll need to enbable the material_theme for your website. If you download this theme from GitHub, it is recommended that you change the name of the base theme to materialize7 (remove any other text in the name that GitHub includes).
+To use this theme, put the Materialize7 base theme and the material_theme in your themes folder. You'll need to enbable the material_theme for your website. If you download this theme from GitHub, it is recommended that you change the name of the base theme to materialize7 (remove any other text in the name that GitHub includes). 
 
 
 Main Menu
