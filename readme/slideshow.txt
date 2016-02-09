@@ -1,3 +1,9 @@
-Slideshow
+Slideshow for Materialize7
 
-Need to add feature for slideshow for this theme. Create the feature from our site then add to repository.
+You can download the slideshow feature we use for slideshow presentations. 
+
+To install, you'll need to make sure that you have views, features, and flexslider for this to work.
+
+The view will create a block for a slideshow presentation. We put that block in the preface region of the home page.
+
+To create a slideshow slide, you'll need to create a node for each slide using the slideshow presentation content type. It's intentionally made simple to support the concept of hero banners. It is recommended that each node used to create a slideshow has the same content but a different image so only the background changes.
