@@ -805,6 +805,7 @@ nav.tabs .tabs li:hover, .tabs.primary li:hover {background-color:#333;}
 div.contextual-links-wrapper ul.contextual-links {border-radius:0;padding:0;background-color:#444;border-color:#666;}
 div.contextual-links-wrapper ul.contextual-links li {display:block;width:100%;}
 div.contextual-links-wrapper ul.contextual-links a {color:#fff !important;padding:10px 20px;display:block;width:100%;}
+div.contextual-links-active a.contextual-links-trigger {background-color:transparent;border:none;opacity:0.7;}
 .contextual ul.contextual-links a {line-height:48px;}
 .contextual ul.contextual-links a:hover {background-color:rgba(255,255,255,.5);}
 

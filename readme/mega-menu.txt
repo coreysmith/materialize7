@@ -1,8 +1,14 @@
 Mega Menu Feature for Materialize7
 
+
 Drupal does not natively handle mega menus or mobile navigation well. Currently, we have solved this by adding editable code to a block put in the mega menu region. We have included that snippet of code below. 
 
 We will be creating a module for this purpose in the future. This read me will be updated when that module is complete.
+
+
+Current Known Issue
+----------------------------------------------------------------------------
+The plus symbols do not trigger in the jquery when logged into the admin view of the website. This means you can not navigate properly through the site if you have a mega-level-3 when logged in.
 
 
 Main Menu Navigation
