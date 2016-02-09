@@ -232,7 +232,7 @@ nav ul a:hover {background-color:transparent;}
 .field--name-field-tags, .field-name-field-tags {padding-bottom:10px;}
 .field--name-field-tags:after,.field-name-field-tags:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
 .field--name-field-tags .field__label,.field-name-field-tags .field-label {display:none;}
-.field--name-field-tags a, .field-name-field-tags a {color:#fff;background-color:#aaa;border-radius:20px;background-clip:padding-box;font-size:.9rem;margin-right:3px;padding:8px 12px;line-height:100%;}
+.field--name-field-tags a, .field-name-field-tags a {color:#fff;background-color:#aaa;border-radius:20px;background-clip:padding-box;font-size:.9rem;margin-right:3px;padding:8px 12px 6px;line-height:100%;}
 .field--name-field-tags a:hover, .field-name-field-tags a:hover {color:#fff;background-color:#999;}
 @media only screen and (max-width : 600px) {
 
