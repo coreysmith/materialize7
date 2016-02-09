@@ -104,6 +104,7 @@ a#main-content:hover {}
 /*---------- Main Menu -------------------*/
 
 nav {background:transparent;}
+nav ul a:hover {background-color:transparent;}
 #main-navigation-wrapper .inner.row {margin:0;}
 #main-navigation-wrapper ul, #main-navigation-wrapper nav ul {padding-left:0;}
 #main-navigation-wrapper ul li, #main-navigation-wrapper nav ul li {list-style-type:none;}
