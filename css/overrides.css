@@ -700,6 +700,8 @@ ol.flex-control-nav.flex-control-paging {
 .Light .slideshow-text-area-wrapper { color:#fff; }
 .Dark .slideshow-text-area-wrapper {  color:#111; }
 
+#block-views-slideshow-presentation-block .flexslider ul li {float:left;display:list-item;margin-right:-100px;position:relative;width:100%;z-index:2;}
+
 @media only screen and (max-width : 600px) {
   #block-views-slideshow-presentation-block .slideshow-url-inner {
     top:20px;
