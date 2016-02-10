@@ -38,3 +38,4 @@ function materialize7_preprocess_html(&$variables) {
     drupal_add_html_head($apple, 'apple-touch-icon-'.$size);
   }
 }
+

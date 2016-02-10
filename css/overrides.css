@@ -328,7 +328,7 @@ nav ul a:hover {background-color:transparent;}
   
 /*---------- Views -----------------------*/
 
-.views-row {clear:both;}
+.Views-row {clear:both;}
 .views-row .node__content {border-bottom:2px solid #ddd;margin-bottom:20px;padding-bottom:20px;}
 .views-row .submitted-by .node__content {border-bottom:0 solid #ddd;padding:0;margin:0;}
 .node__links:after {
@@ -339,7 +339,149 @@ nav ul a:hover {background-color:transparent;}
   clear: both;
   height: 0;
 }
-  
+
+/*---------- Pager -----------------------*/
+ul.pager {margin-top:20px;}
+ul.pager li.pager-first,
+ul.pager li.pager-previous {padding:.5em 0;}
+ul.pager li.pager-next,
+ul.pager li.pager-last {padding:.5em 0;margin:0 40px 0 0;}
+li.pager-first a{visibility:hidden;}
+li.pager-previous a {visibility:hidden;}
+li.pager-next a {visibility:hidden;}
+li.pager-last a {visibility:hidden;}
+
+li.pager-first a:before{
+    content: "\f053";
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: .8em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    visibility:visible;
+    margin-left:0;
+    margin-right:-19px;
+    
+}
+li.pager-first a:after{
+    content: "\f053";
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: .8em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    visibility:visible;
+    margin-left:-19px;
+}
+
+li.pager-previous a:before{
+    content: "\f053";
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: .8em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    visibility:visible;
+    margin-left:0;
+    margin-right:-60px;
+}
+
+li.pager-last a:before{
+    content: "\f054";
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: .8em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    visibility:visible;
+    margin-left:-30px;
+    margin-right:-19px;
+    
+}
+li.pager-last a:after{
+    content: "\f054";
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: .8em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    visibility:visible;
+    margin-left:-19px;
+}
+
+li.pager-next a:before{
+    content: "\f054";
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: .8em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    visibility:visible;
+    margin-left:30px;
+    margin-right:-19px;
+    
+}
+
 /*---------- Form Elements ---------------*/
 
 button,
