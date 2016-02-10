@@ -888,22 +888,7 @@ div.contextual-links-active a.contextual-links-trigger {background-color:transpa
 /* =     Readmore link              = */
 /* ================================== */
 
-.node-readmore a,
-.more-link a {
-  color: #fff;
-  background-color: #aa0000;
-  border-radius: 20px;
-  background-clip: padding-box;
-  font-size: .9rem;
-  margin-right: 3px;
-  padding: 8px 12px;
-  line-height: 100%;
-  float: left;
-}
-.node-readmore a:after,
-.comment-add a:after,
-.more-link a:after {
-
+.comment-add a:after {
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
   font-family: FontAwesome;
@@ -924,12 +909,33 @@ div.contextual-links-active a.contextual-links-trigger {background-color:transpa
   
 }
 
-.node-readmore a:hover,
-.more-link a:hover {
-  color:#fff;
-  background-color:#880000;}
 
+.more-link.btn,.node-readmore.btn {background:#ddd;display:inline-block;padding:0 20px;}
+.more-link.btn:hover, .node-readmore.btn:hover {background:#ccc;}
+.more-link.btn a,
+.node-readmore.btn a {color:#333;}
 
+.more-link.btn a:after,
+.node-readmore.btn a:after {
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size: inherit;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  content: "";
+  margin-left:10px;
+  
+}
 /* =================================== */
 /* =      Comment Add Link           = */
 /* =================================== */

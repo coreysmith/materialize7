@@ -19,6 +19,11 @@ Decisions that we have made in the building of this base theme are based on the 
 In addition to being well experienced Drupal developers, we are also a Hubspot agency. We will be building a port of this theme to the Hubspot COS to allow for seamless integration of a Hubspot and Drupal site.
 
 
+Our Test Site
+----------------------------------------------------------------------------
+We use this site as our test site. Feel free to take a peek. http://dev-d7materialize.pantheon.io/ When you have problems, the more detail you can give us as to what led to your problems will help us recreate it. We'll probably create a page on this site (or another test site) to see what we can do to fix it for you and demonstrate how it works then draw a link for you to see it.
+
+
 Drupal 8
 ----------------------------------------------------------------------------
 Drupal 8 is not ready for prime time yet because there simply are not yet enough modules available for a fully developed web project. This Drupal 7 version we designed with a future port to Drupal 8. We have made significant progress in the Drupal 8 version and hope to release it before module required for an effective Drupal 8 website are complete.

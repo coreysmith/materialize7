@@ -7,3 +7,8 @@ To install, you'll need to make sure that you have views, features, and flexslid
 The view will create a block for a slideshow presentation. We put that block in the preface region of the home page.
 
 To create a slideshow slide, you'll need to create a node for each slide using the slideshow presentation content type. It's intentionally made simple to support the concept of hero banners. It is recommended that each node used to create a slideshow has the same content but a different image so only the background changes.
+
+
+**** Most Important ****
+
+We have worked hard to make this work for our website. We don't know how well this will play with you configuration of Drupal. If this doesn't work for you and you can't resolve it then please let us know. We'll do our best to made adjustments in the files to make this work but if it still won't work, you might have to create this from scratch.

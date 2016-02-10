@@ -8,7 +8,8 @@
         $('.contextual-links-wrapper .contextual-links a').addClass('waves-light waves-effect');
         $('.field--name-field-tags a').addClass('waves-light waves-effect');
         $('.field-name-field-tags a').addClass('waves-light waves-effect');
-        $('.node-readmore a').addClass('waves-light waves-effect');
+        $('.node-readmore').addClass('waves-dark waves-effect btn');
+        $('.more-link').addClass('waves-dark waves-effect btn');
         
         $('.parallax').parallax();
         
