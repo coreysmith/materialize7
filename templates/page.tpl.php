@@ -224,7 +224,7 @@
     </div> <!-- .page-inner -->
     
     <div id="back-to-top-wrapper">
-      <a href="#top" id="back-to-top" class="back-to-top">Back To Top &nbsp; <i class="fa fa-arrow-circle-up"> </i></a>
+      <a href="#top" id="back-to-top" class="back-to-top waves-effect waves-light">Back To Top &nbsp; <i class="fa fa-arrow-circle-up"> </i></a>
     </div>  
   </div> <!-- .page -->
 </div> <!-- .materialize -->

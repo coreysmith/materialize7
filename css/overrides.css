@@ -391,6 +391,8 @@ input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([read
 
 /*---------- Icons ------------------------*/
 
+.rssFeed {margin-top:20px;}
+
 .feed-icon:before {
   content: "";
   -moz-osx-font-smoothing: grayscale;
@@ -399,7 +401,7 @@ input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([read
   font-feature-settings: normal;
   font-kerning: auto;
   font-language-override: normal;
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-size-adjust: none;
   font-stretch: normal;
   font-style: normal;
@@ -910,8 +912,8 @@ div.contextual-links-active a.contextual-links-trigger {background-color:transpa
 }
 
 
-.more-link.btn,.node-readmore.btn {background:#ddd;display:inline-block;padding:0 20px;}
-.more-link.btn:hover, .node-readmore.btn:hover {background:#ccc;}
+.more-link.btn,.node-readmore.btn {background:#eee;display:inline-block;padding:0 20px;}
+.more-link.btn:hover, .node-readmore.btn:hover {background:#eee;}
 .more-link.btn a,
 .node-readmore.btn a {color:#333;}
 
@@ -932,7 +934,7 @@ div.contextual-links-active a.contextual-links-trigger {background-color:transpa
   font-weight: normal;
   line-height: 1;
   text-rendering: auto;
-  content: "";
+  content: "";
   margin-left:10px;
   
 }
