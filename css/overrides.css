@@ -1098,11 +1098,11 @@ div.contextual-links-active a.contextual-links-trigger {background-color:transpa
     
 /** landing page content type - see page--landing-page.tpl.php with details on how to set this up */
 
-.node-type-landing-page .side-by-side form {background-color:#fdfdfd;}
-.node-type-landing-page .no-navigation #mega-menu-wrapper,
-.node-type-landing-page .no-navigation #header,
-.node-type-landing-page .no-navigation #main-navigation-wrapper{display:none;}
-.node-type-landing-page .no-navigation h1.title {text-align:center;}
+.side-by-side form {background-color:#fdfdfd;}
+.no-navigation #mega-menu-wrapper,
+.no-navigation #header,
+.no-navigation #main-navigation-wrapper{display:none;}
+.no-navigation h1.title {text-align:center;}
 
 @media only screen and (max-width : 600px) {
 
@@ -1114,8 +1114,12 @@ div.contextual-links-active a.contextual-links-trigger {background-color:transpa
 
 }
 @media only screen and (min-width : 993px) {
-  .node-type-landing-page .side-by-side .field-name-body {width:50%;float:left;padding:0 20px 0 0;}
-  .node-type-landing-page .side-by-side form {width:50%;float:left;padding:20px;margin-top:20px;}
+  .side-by-side .field-name-body,
+  .d7 .side-by-side .region-content,
+  .d8 .side-by-side .region-content,
+  .hs .side-by-side .content-region {width:50%;float:left;padding:0 20px 0 0;}
+  .d7 .side-by-side form,
+  .d8 .side-by-side form {width:50%;float:left;padding:20px;margin-top:20px;}
 }
 
 @media only screen and (max-width: 992px) {

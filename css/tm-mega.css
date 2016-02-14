@@ -23,7 +23,7 @@ ul.mega-menu ul li > ul,
 ul.mega-menu ul li:hover > ul{display:none;position:relative;}
 ul.mega-menu ul{display:none;position:absolute;top:100%;left:0;padding:0;width:300px;overflow:hidden;}
 ul.mega-menu ul a{font-size:1rem;position:relative;left:0;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;line-height:1.1rem;padding:1rem 20px;}
-ul.mega-menu ul a:hover{color:#fff;padding-left:25px;padding-right:5px;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+ul.mega-menu ul a:hover{color:#fff;padding-left:30px;padding-right:10px;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
 ul.mega-menu ul li{width:100%;float:none;text-align:left;position:relative;border-bottom:1px solid rgba(0,0,0,.1);}
 ul.mega-menu ul li:last-child{border-bottom:0px solid rgba(0,0,0,.1);}
 
