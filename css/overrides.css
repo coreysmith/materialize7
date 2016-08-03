@@ -44,7 +44,7 @@ ol ol li {list-style-type:lower-alpha;}
 ol ol ol li {list-style-type:circle;}
 ul {padding-left:40px;}
 ul ul {padding-left:20px;}
-ul li {list-style-type:disc;}
+/* ul li {list-style-type:disc;} -nls */
 ul ul li {list-style-type:circle;}
 ul ul ul li {list-style-type:square;}
 hr { 
